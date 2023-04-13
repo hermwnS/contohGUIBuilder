@@ -6,5 +6,10 @@ namespace GUI_Builder
         {
             InitializeComponent();
         }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.label1 = textBox1.Text;
+        }
     }
 }
